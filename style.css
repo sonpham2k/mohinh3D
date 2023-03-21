@@ -44,7 +44,7 @@ h6 {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 
@@ -1473,4 +1473,145 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
 .zalo_number {
     width: 50px;
     margin-right: 10px;
+}
+
+
+/* index.html */
+.row--about-me {
+    display: flex;
+    flex-basis: 30%;
+}
+
+.row--1 {
+    margin: 4px 15px;
+    display: flex;
+    flex-basis: 50%;
+}
+
+.list-member {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row--about-member {
+    display: flex;
+    width: 29%;
+    height: 100px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.row-1-member {
+    margin: 4px 10px;
+    display: flex;
+    flex: 1
+}
+
+.row-2-member {
+    margin: 4px 15px;
+    flex: 2
+}
+
+.row-member-item {
+    margin: 4px 15px;
+    flex: 1;
+    display: flex;
+}
+
+.div--margin {
+    margin-top: 50px;
+}
+
+.avatar-member {
+    border-radius: 50%;
+    height: 5em;
+    width: 5em;
+    right: 0;
+}
+
+.crossbar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.row-1-service {
+    margin: 4px 10px;
+}
+
+/* end index.html */
+
+/* design-3d */
+.row--design-3d {
+    display: flex;
+    flex-direction: column;
+}
+
+.row--1-design {
+    margin: 4px 15px;
+    display: flex;
+    flex-basis: 50%;
+}
+
+.row--2-design {
+    margin: 4px 15px;
+    display: flex;
+}
+
+/* end design3d */
+
+/* model 3d */
+.row--model-3d {
+    display: flex;
+    flex-direction: column;
+}
+
+.row--1-model {
+    margin: 4px 15px;
+    display: flex;
+    flex-basis: 50%;
+}
+
+.row--2-model {
+    margin: 4px 15px;
+    display: flex;
+}
+
+.element-layout {
+    background-color: #fff;
+    padding: 12px 0 32px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.element-layout__item {
+    width: 200px;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: #5a88ca;
+    border-radius: 20%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.name-tech {
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.image-tech {
+    width: 80%;
+    text-align: center;
+    margin: 20px;
 }

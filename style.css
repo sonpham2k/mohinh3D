@@ -1595,7 +1595,12 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
     font-weight: 700;
     margin-top: 20px;
     background-color: #5a88ca;
-    border-radius: 20%;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.element-layout__item :hover {
+    overflow: visible;
 }
 
 table, th, td {

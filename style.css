@@ -1647,3 +1647,7 @@ table, th, td {
     margin-left: 340px;
     color: white;
 }
+
+.height-unset {
+    height: unset !important;
+}

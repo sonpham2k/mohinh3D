@@ -99,18 +99,6 @@ var mobileMenu = document.getElementById("mobile-menu");
 var menuBar = document.getElementById("bar-menu");
 var pathname = window.location.pathname;
 
-mobileMenu.children[0].onclick = function() {
-    var isOpen = header.clientHeight === 50;
-    if(isOpen) {
-        header.style.height = 'auto';
-        mobileMenu.children[0].style.color = 'rgb(219, 219, 219)';
-    } else {
-        header.style.height = '50px';
-        mobileMenu.children[0].style.color = 'white';
-    }
-}
-
-
 // media query event handler
 if (matchMedia) {
     const mq = window.matchMedia("(min-width: 767px)");
@@ -120,9 +108,10 @@ if (matchMedia) {
 
 // media query change
 function WidthChange(mq) {
-    if (mq.matches) {
+    if (!mq.matches) {
         if (pathname == "/index.html") {
-            menuBar.innerHTML = 
+            console.log("menuBar", menuBar)
+            document.getElementById("bar-menu").innerHTML = 
             `
                 <div class="list-header-menu-mobile">
                     <ul class="nav navbar-nav" id="header-menu">
@@ -164,5 +153,22 @@ function WidthChange(mq) {
                 </div>
             `
         };
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        mobileMenu.children[0].onclick = function() {
+            var isOpen = header.clientHeight === 50;
+            if(!isOpen) {
+                mobileMenu.children[0].style.color = 'rgb(219, 219, 219)';
+                var cc = document.getElementById("header-menu").classList.contains("height-unset");
+                if (cc) {
+                    document.getElementById("header-menu").classList.remove("height-unset");
+                } else {
+                    document.getElementById("header-menu").classList.add("height-unset");
+                }
+            } else {
+                header.style.height = '50px';
+                mobileMenu.children[0].style.color = 'white';
+            }
+        }
     }
 }

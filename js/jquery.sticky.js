@@ -85,10 +85,10 @@
 
           var stickyId = stickyElement.attr('id');
           var wrapperId = stickyId ? stickyId + '-' + defaults.wrapperClassName : defaults.wrapperClassName 
-          var wrapper = $('<div></div>')
-            .attr('id', stickyId + '-sticky-wrapper')
-            .addClass(o.wrapperClassName);
-          stickyElement.wrapAll(wrapper);
+          // var wrapper = $('<div></div>')
+          //   .attr('id', stickyId + '-sticky-wrapper')
+          //   .addClass(o.wrapperClassName);
+          // stickyElement.wrapAll(wrapper);
 
           if (o.center) {
             stickyElement.parent().css({width:stickyElement.outerWidth(),marginLeft:"auto",marginRight:"auto"});

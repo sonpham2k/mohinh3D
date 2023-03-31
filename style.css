@@ -1620,3 +1620,30 @@ table, th, td {
     text-align: center;
     margin: 20px;
 }
+
+#header-menu {
+    flex: 10
+}
+
+.mobile-menu-btn {
+    float: right;
+    width: 20px;
+    padding: 0 21px;
+    position: absolute;
+    display: none;
+}
+
+.mobile-menu-btn:hover {
+    cursor: pointer;
+}
+
+.list-header-menu-mobile,
+.list-header-menu {
+    display: flex;
+}
+
+.wrap-icon {
+    padding: 20px;
+    margin-left: 340px;
+    color: white;
+}

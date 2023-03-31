@@ -2,7 +2,7 @@ jQuery(document).ready(function($){
     
     // jQuery sticky Menu
     
-	$(".mainmenu-area").sticky({topSpacing:0});
+	// $(".mainmenu-area").sticky({topSpacing:0});
     
     
     $('.product-carousel').owlCarousel({
@@ -93,3 +93,76 @@ jQuery(document).ready(function($){
 
   ga('create', 'UA-10146041-21', 'auto');
   ga('send', 'pageview');
+
+var header = document.getElementById("header-menu");
+var mobileMenu = document.getElementById("mobile-menu");
+var menuBar = document.getElementById("bar-menu");
+var pathname = window.location.pathname;
+
+mobileMenu.children[0].onclick = function() {
+    var isOpen = header.clientHeight === 50;
+    if(isOpen) {
+        header.style.height = 'auto';
+        mobileMenu.children[0].style.color = 'rgb(219, 219, 219)';
+    } else {
+        header.style.height = '50px';
+        mobileMenu.children[0].style.color = 'white';
+    }
+}
+
+
+// media query event handler
+if (matchMedia) {
+    const mq = window.matchMedia("(min-width: 767px)");
+    mq.addListener(WidthChange);
+    WidthChange(mq);
+}
+
+// media query change
+function WidthChange(mq) {
+    if (mq.matches) {
+        if (pathname == "/index.html") {
+            menuBar.innerHTML = 
+            `
+                <div class="list-header-menu-mobile">
+                    <ul class="nav navbar-nav" id="header-menu">
+                        <li class="active"><a href="index.html" style="margin-left: 10px;">Trang chủ</a></li>
+                        <li><a href="design3d.html" style="margin-left: 10px;">Dịch vụ thiết kế 3D</a></li>
+                        <li><a href="displayModel.html" style="margin-left: 10px;">Dịch vụ làm mô hình trưng bày</a></li>
+                    </ul>
+                    <div id="mobile-menu" class="mobile-menu-btn">
+                        <i class="fa fa-bars fa-2x wrap-icon"></i>
+                    </div>
+                </div>
+            `
+        } else if (pathname == "/design3d.html") {
+            menuBar.innerHTML =
+            `
+                <div class="list-header-menu-mobile">
+                    <ul class="nav navbar-nav" id="header-menu">
+                        <li class="active"><a href="design3d.html" style="margin-left: 10px;">Dịch vụ thiết kế 3D</a></li>
+                        <li><a href="index.html" style="margin-left: 10px;">Trang chủ</a></li>
+                        <li><a href="displayModel.html" style="margin-left: 10px;">Dịch vụ làm mô hình trưng bày</a></li>
+                    </ul>
+                    <div id="mobile-menu" class="mobile-menu-btn">
+                        <i class="fa fa-bars fa-2x wrap-icon"></i>
+                    </div>
+                </div>
+            `
+        } else {
+            menuBar.innerHTML =
+            `
+                <div class="list-header-menu-mobile">
+                    <ul class="nav navbar-nav" id="header-menu">
+                        <li class="active"><a href="displayModel.html" style="margin-left: 10px;">Dịch vụ làm mô hình trưng bày</a></li>
+                        <li><a href="index.html" style="margin-left: 10px;">Trang chủ</a></li>
+                        <li><a href="design3d.html" style="margin-left: 10px;">Dịch vụ thiết kế 3D</a></li>
+                    </ul>
+                    <div id="mobile-menu" class="mobile-menu-btn">
+                        <i class="fa fa-bars fa-2x wrap-icon"></i>
+                    </div>
+                </div>
+            `
+        };
+    }
+}

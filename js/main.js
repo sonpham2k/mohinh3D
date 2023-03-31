@@ -97,7 +97,7 @@ jQuery(document).ready(function($){
 var header = document.getElementById("header-menu");
 var mobileMenu = document.getElementById("mobile-menu");
 var menuBar = document.getElementById("bar-menu");
-var pathname = window.location.pathname;
+var pathname = window.location.pathname.split("/", 6).pop();
 
 // media query event handler
 if (matchMedia) {
@@ -109,7 +109,7 @@ if (matchMedia) {
 // media query change
 function WidthChange(mq) {
     if (!mq.matches) {
-        if (pathname == "/index.html") {
+        if (pathname == "index.html") {
             console.log("menuBar", menuBar)
             document.getElementById("bar-menu").innerHTML = 
             `
@@ -124,7 +124,7 @@ function WidthChange(mq) {
                     </div>
                 </div>
             `
-        } else if (pathname == "/design3d.html") {
+        } else if (pathname == "design3d.html") {
             menuBar.innerHTML =
             `
                 <div class="list-header-menu-mobile">
@@ -154,21 +154,25 @@ function WidthChange(mq) {
             `
         };
 
-        var mobileMenu = document.getElementById("mobile-menu");
-        mobileMenu.children[0].onclick = function() {
-            var isOpen = header.clientHeight === 50;
-            if(!isOpen) {
-                mobileMenu.children[0].style.color = 'rgb(219, 219, 219)';
-                var cc = document.getElementById("header-menu").classList.contains("height-unset");
-                if (cc) {
-                    document.getElementById("header-menu").classList.remove("height-unset");
-                } else {
-                    document.getElementById("header-menu").classList.add("height-unset");
-                }
+        navBarClick();
+    }
+}
+
+function navBarClick() {
+    var mobileMenu = document.getElementById("mobile-menu");
+    mobileMenu.children[0].onclick = function() {
+        var isOpen = header.clientHeight === 50;
+        if(!isOpen) {
+            mobileMenu.children[0].style.color = 'rgb(219, 219, 219)';
+            var addHeaderMenu = document.getElementById("header-menu").classList.contains("height-unset");
+            if (addHeaderMenu) {
+                document.getElementById("header-menu").classList.remove("height-unset");
             } else {
-                header.style.height = '50px';
-                mobileMenu.children[0].style.color = 'white';
+                document.getElementById("header-menu").classList.add("height-unset");
             }
+        } else {
+            header.style.height = '50px';
+            mobileMenu.children[0].style.color = 'white';
         }
     }
 }

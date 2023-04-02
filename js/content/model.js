@@ -150,9 +150,13 @@ var model = {
                         phục vụ, được cung cấp giải pháp làm sa bàn tốt nhất với giá thành, chất lượng phù 
                         hợp nhất. </br>
                         </br>
+                    `,
+    many_solution:
+                    `
+                    </br>
+                    <p align="justify" style="font-size: 18px;">
                         Rất nhiều phương pháp để làm sa bàn và nhiều loại vật liệu được sử dụng như: </br>
                     </p>
-
                     <ul align="justify" style="font-size: 18px;">
                         <li>Mica mái ngói.</li>
                         <li>Gỗ, giấy, bìa carton, vải, xốp, thạch cao, chỉ, đất…</li>
@@ -164,7 +168,6 @@ var model = {
                         <li>Các dụng cụ vệ sinh chi tiết.</li>
                         <li>Các loại công cụ đo đạc, kéo cắt, dán và cố định vật thể.</li>
                     </ul>
-                    
                     <p align="justify" style="font-size: 18px;">
                         </br>
                         Cách làm thủ công này tuỳ thuộc vào độ khéo tay của người làm mà cho chất lượng sản 
@@ -184,6 +187,6 @@ var model = {
                     `
 }
 document.getElementById('what_is_service').innerHTML = model.why_is_do_model;
-// document.getElementById('what_is_service').innerHTML = model.what_is_service;
 document.getElementById('optimal_time').innerHTML = model.optimal_time;
 document.getElementById('about_3d').innerHTML = model.about_3d;
+document.getElementById('many-solution').innerHTML = model.many_solution;

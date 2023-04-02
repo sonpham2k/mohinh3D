@@ -1,4 +1,42 @@
 var model = {
+    why_is_do_model: 
+    `
+        <p align="justify" style="font-size: 18px;">
+            </br>
+            Trong triển lãm trưng bày, bảo tàng lịch sử, các cơ sở giáo dục đào tạo, mô
+            hình trưng bày đóng góp vai trò quan trọng trong việc truyền tải nội dung hình thức một cách
+            trực quan, sinh động đến người xem. Hiện nay, các mô hình trưng bày phổ biến bao 
+            gồm: các loại sa bàn địa hình, các loại mô hình sản phẩm, máy móc… Tại các viện bảo tàng 
+            hay nhà trường, các mô hình trừng bày đóng góp vai trò quan trọng trong 
+            giảng dạy. </br>
+            </br>
+            Với sự phát triển của khoa học công nghệ, các thiết 
+            bị ngày càng hiện đại, có hình dáng phức tạp hơn. Tuy nhiên, hiện 
+            nay các mô hình được chế tạo bằng phương pháp thủ công 
+            hoặc các phương pháp chế tạo cơ khí đơn giản, có độ chính xác không cao, 
+            không chế tạo được các mô hình có hình dáng phức tạp. Vật 
+            liệu được sử dụng chủ yếu là xốp, gỗ, formex… có độ bền cơ học thấp, khó gia 
+            công chính xác. Vì vậy, các mô hình học cụ có độ chính xác không cao, chưa 
+            truyền tải hết nội dung trực quan sinh động đến người xem. </br>
+            </br>
+            Bên cạnh các vật liệu làm mô hình thông dụng, các loại nhựa đang 
+            được sử dụng phổ biến kết hợp với các công nghệ cơ khí chính xác nhằm 
+            tạo ra các mô hình có độ phức tạp hơn. Các phương pháp gia công vật liệu 
+            nhựa hiện đại như tiện CNC, in 3D cho các chi tiết chính xác, có độ phức 
+            tạp cao phù hợp để chế tạo các loại mô hình hiện đại. Đặc biệt, 
+            nhờ ứng dụng công nghệ in 3D có thể chế tạo các mô hình đơn lẻ với 
+            chi phí vừa phải phù hợp với nhu cầu của từng doanh nghiệp. </br>
+            </br>
+            Cùng với sự tiến bộ của khoa học kỹ thuật, công nghệ in 3D được phát 
+            minh, có vai trò đột phá trong cách mạng công nghiệp 4.0. Hiện nay, 
+            công nghệ in 3D được ứng dụng chủ yếu trong chế tạo các mô hình mẫu 
+            phục vụ công tác nghiên cứu phát triển trước khi tiến hành chế tạo 
+            hàng loạt. Công nghệ in 3D hỗ trợ cho người thiết kế trong quá trình 
+            thiết kế sản phẩm, giảm chi phí nghiên cứu. Vật liệu chủ yếu được sử 
+            dụng trong công nghệ in 3D là nhựa tổng hợp bao gồm : PLA, nylon, ABS, 
+            PET, PETG,…
+        </br>
+    `,
     what_is_service:
                     `
                     <p align="justify" style="font-size: 18px;">
@@ -25,25 +63,57 @@ var model = {
                     `
                     <p align="justify" style="font-size: 18px;">
                         </br>
-                        Nếu chỉ để in ra mẫu thì bạn muốn giá nào và thời gian bao lâu chúng 
-                        tôi cũng có thể nhận in 3D cho bạn được.</br>
-                        </br>
-                        Chúng tôi không hướng đến việc gia tăng doanh thu trên mỗi đơn hàng, 
-                        chúng tôi muốn có thật nhiều khách hàng gắn bó và đồng hành lâu dài 
-                        cùng công ty. Bởi vậy, khác với các công ty khác, Chúng tôi có riêng 
+                        Mong muốn của chúng tôi là đồng hành và gắn bó cùng với khách hàng, mang đến 
+                        thành công cho khách hàng trong trưng bày và quảng bá sản phẩm. 
+                        Bởi vậy, khác với các công ty khác, Chúng tôi có riêng 
                         một đội ngũ chuyên viên tư vấn được đào tạo bài bản để giúp khách hàng 
                         đưa ra các lựa chọn tối ưu nhất về thời gian và chi phí cho mục tiêu in 
                         3D của mình. </br>
-                        </br>
-                        Dưới đây là các yếu tố quyết định thời gian, chi phí và chất lượng mẫu 
-                        in 3D mà chúng tôi sẽ giúp bạn làm rõ trong quá trình tư vấn. Chỉ cần 
-                        điều chỉnh 1 trong các yếu tố này là có thể mang lại thay đổi rất lớn 
-                        về thời gian, chi phí và chất lượng của sản phẩm in 3D.</br>
                     </p>
                     `,
     about_3d:
                     `
                     <p align="justify" style="font-size: 18px;">
+                        Chúng tôi cung cấp các loại mô hình trưng bày: </br>
+                    </p>
+                        <ul align="justify" style="font-size: 18px;">
+                            <li>Mô hình trưng bày sản phẩm.</li>
+                            <li>Mô hình trưng bày hệ thống</li>
+                            <li>Sa bàn phục vụ trong học tập giảng dạy</li>
+                        </ul> </br>
+
+                    <p align="justify" style="font-size: 18px;">
+                        <b>Mô hình trưng bày sản phẩm</b> </br>
+                        Mô hình vật lý trưng bày các sản phẩm như: thiết bị, xe cộ, máy bay,...
+                        Được chế tạo với các tỉ lệ khác nhau có kiểu dáng và hình thức giống như sản phẩm thật
+                        có tác dụng mang đến người xem trải nghiệm sống động về sản phẩm của công ty. </br>
+                    </p>
+
+                    <div class="row--1">
+                        <figure>
+                            <img src="img/banner-2.jpg" alt="Slide">
+                        </figure>
+                    </div>
+                    </br>
+
+                    <p align="justify" style="font-size: 18px;">
+                        <b>Mô hình trưng bày hệ thống</b> </br>
+                        Các hệ thống máy móc có quy mô lớn cần được trưng bày có thể được truyền tải trong
+                        các mô hình in 3D các màu sắc với các tỉ lệ khác nhau.
+                        </br>
+                    </p>
+
+                    <div class="row--1">
+                        <figure>
+                            <img src="img/banner-1.jpg" alt="Slide">
+                        </figure>
+                    </div>
+                    </br>
+
+                    <p align="justify" style="font-size: 18px;">
+                        </br>
+                        </br>
+                        <b>Sa bàn phục vụ học tập, huấn luyện</b> </br>
                         Sa bàn (hoặc mô hình theo tỷ lệ, tiếng Anh: Physical model) là một thuật 
                         ngữ chuyên môn chỉ đến một vị trí, một mô hình thu nhỏ về một đối tượng 
                         chủ thể nào đó nhằm phục vụ cho việc tìm hiểu, nghiên cứu... Trên thực tế, 
@@ -51,24 +121,6 @@ var model = {
                         cho việc nghiên cứu hoặc làm mẫu. </br>
                         </br>
                         Phân loại sa bàn để sử dụng trong các lĩnh vực khác nhau. </br>
-                        </br>
-                        Hiện nay, sa bàn được áp dụng trong nhiều lĩnh vực, ngành nghề khác nhau. 
-                        Sau đây là 4 loại mô hình được ứng dụng nhiều nhất. </br>
-                        </br>
-                        Sau đây là 4 loại mô hình được ứng dụng nhiều nhất. </br>
-                        </br>
-
-                        <b>Sa bàn mô hình quy hoạch</b></br>
-                        </br>
-                        Hiện tại, trong các dự án quy hoạch, sa bàn được sử dụng phổ biến hơn. Người 
-                        ta dùng sa bàn để có thể lên mô hình bao quát một khu đất rộng. Từ đó phân 
-                        tích vị trí, địa lý của khu đó. Tỷ lệ thu nhỏ trên sa bàn sẽ chính xác với 
-                        tỉ lệ thật để mọi người dễ dàng quan sát và hình dung. </br>
-                        </br>
-                        Do đó, với mục đích thuận tiện cho việc phân tích dự án. Sa bàn được thiết 
-                        kế có tác dụng khái quát được dự án. Giúp thể hiện được vị trí địa lý, khu 
-                        vực nào thấp, chỗ nào cao để tìm ra phương án xây dựng tại khu đất quy hoạch 
-                        hợp lý. </br>
                         </br>
 
                         <b>Loại sa bàn dùng trong quân sự, chiến tranh</b></br>
@@ -81,17 +133,6 @@ var model = {
                         chiến tranh được dựng nên để phục vụ công tác phục chế lại các di tích lịch sử, 
                         giúp chúng ta dễ hình dung về các thời kỳ kháng chiến và đồng thời lưu giữ giá 
                         trị văn hóa. </br>
-                        </br>
-
-                        <b>Sa bàn về giao thông</b></br>
-                        </br>
-                        Sa ban giao thông được chế tạo nhằm thể hiện lại hệ thống mạng lưới giao thông. 
-                        Ví dụ trên một trục đường, ngã tư hay thậm chí cả một khu ph, phường xã tại vùng 
-                        nông thôn. </br>
-                        </br>
-                        Sa bàn mô hình giao thông giúp dễ dàng quan sát các tuyến đường, nút giao thông. 
-                        Để từ đó thuận tiện trong việc tìm đường di chuyển. Hơn nữa, mô hình này còn phổ 
-                        cập kiến thức về giao thông, an toàn giao thông cho mọi người. </br>
                         </br>
 
                         <b>Sa bàn kiến trúc nội thất</b></br>
@@ -142,7 +183,7 @@ var model = {
                     </p>
                     `
 }
-
-document.getElementById('what_is_service').innerHTML = model.what_is_service;
+document.getElementById('what_is_service').innerHTML = model.why_is_do_model;
+// document.getElementById('what_is_service').innerHTML = model.what_is_service;
 document.getElementById('optimal_time').innerHTML = model.optimal_time;
 document.getElementById('about_3d').innerHTML = model.about_3d;

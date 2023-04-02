@@ -1,12 +1,6 @@
 var index = {
-    about_me: `3D Thinking là tâm huyết của đội ngũ chuyên gia được đào tạo bài bản và có cơ hội thực
-                chiến không ít sự án tại Châu Âu và các dự án lớn tại Việt Nam. Năm 2022 đánh dấu bước
-                chuyển mình mạnh mẽ trong định hướng phát triển công ty. Thay đổi Thay slogan “Draw the
-                whole word” sang “No.1 3dprinting solutions” định hướng 3D Thinking là công ty số một
-                trong việc cung cấp giải pháp công nghệ in 3D cho thị trường Việt Nam. Hiện nay, với
-                hàng nghìn mã hàng và gần 100 mẫu máy in 3D các loại với các công nghệ in FDM, SLA, DLP,
-                LCD, SLS, SLM… 3D Thinking đang là công ty số một về cung cấp các giải pháp công nghệ in
-                3D.`,
+    about_me: `Mong muốn mang đến những mô hình trưng bày đẹp, sát thực tế, thể hiện được ý nghĩa của sản phẩm, mang đến giá trị cho khách hàng, đội ngũ HP gồm những thành viên trẻ ưu tú được đào tạo bài bản về thiết kế 3D và chế tạo các mô hình bằng công nghệ hiện đại như: công nghệ in 3D, công nghệ CNC, ... </br>
+                Sứ mệnh của chúng tôi là đồng hành cùng khách hàng trong quảng bá sản phẩm, mang lại nhiều thành quả cho khách hàng của chúng tôi.`,
 
 }
 

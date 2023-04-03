@@ -1636,11 +1636,11 @@ table, th, td {
 .list-header-menu-mobile,
 .list-header-menu {
     display: flex;
+    justify-content: end;
 }
 
 .wrap-icon {
-    padding: 20px;
-    margin-left: 340px;
+    padding-top: 20px;
     color: white;
 }
 

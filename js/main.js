@@ -109,7 +109,7 @@ if (matchMedia) {
 // media query change
 function WidthChange(mq) {
     if (!mq.matches) {
-        if (pathname == "index.html") {
+        if (pathname == "index.html" || pathname == "") {
             console.log("menuBar", menuBar)
             document.getElementById("bar-menu").innerHTML = 
             `

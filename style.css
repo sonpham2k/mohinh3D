@@ -1475,6 +1475,7 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
 .row--about-me {
     display: flex;
     flex-basis: 30%;
+    margin-top: -5%;
 }
 
 .row--1 {
@@ -1682,4 +1683,14 @@ figure {
 .the-end__second-two {
     padding: 4px 16px;
     flex: 1
+}
+.slogan {
+    width: 72%; 
+    height: 2%; 
+    margin-top: 33px;
+}
+  
+.logo-about-me {
+    height: 250px;
+    padding-left: 110px;
 }

@@ -14,7 +14,15 @@ input[type="submit"], button[type="submit"] {
 .col-1, .col-2 {
   width: 293px;
 }    
-    
+.slogan {
+  width: 72%; 
+  height: 2%; 
+  margin-top: 33px;
+}
+.logo-about-me {
+  height: 250px;
+  padding-left: 110px;
+}
     
 }
 
@@ -202,4 +210,13 @@ div.coupon input[type="text"] {
   display: none;
 }
 
+.slogan {
+  width: 85%;
+  height: 25%;
+  margin-top: 15%;
+}
+
+.row--about-me {
+  display: block;
+}
 }

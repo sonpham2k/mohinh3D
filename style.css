@@ -1661,3 +1661,25 @@ figure {
 .header {
     display: inline-flex;
 }
+.the-end {
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+}
+.the-end__first {
+    flex: 1;
+    padding: 4px 16px;
+}
+.the-end__second {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+}
+.the-end__second-one {
+    padding: 4px 16px;
+    flex: 1;
+}
+.the-end__second-two {
+    padding: 4px 16px;
+    flex: 1
+}
